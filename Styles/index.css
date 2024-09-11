@@ -107,3 +107,125 @@ html{
     max-width: 100%;
     margin: auto;
 }
+.footer-second-row:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+
+  }
+.footer-first-row{
+    background-color: rgb(217, 220, 221);
+
+}
+form{
+    text-align: center;
+}
+label{
+    display: block;
+    margin:1 0px 0 10px 0;
+    
+}
+input{
+    text-align: center;
+
+}
+textarea{
+    width: 100%;
+}
+.footer-second-row{
+    display: none;
+}
+.More-Education a{
+    display: block;
+    text-align: center;
+    /* width: 200px; */
+    /* margin: auto; */
+    text-decoration: none;
+    color: black;
+    /* font-family: chalkduster; */
+
+}
+.fa-java:hover{
+    color: blue;
+}
+.fa-python:hover{
+    color:blue;
+}
+.fa-php:hover{
+    color:blue;
+}
+.More-Education i{
+    font-size: 20px;
+    margin: 20px;
+}   
+.Social-Media a{
+    display: block;
+    text-align: center;
+    /* width:200px; */
+    /* margin:auto; */
+    text-decoration: none;
+    /* font-family: chalkduster; */
+
+}
+.Social-Media i{
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+}
+.facebook:hover{
+    color: blue;
+
+}
+.instagram:hover{
+    color: purple;
+}
+.youtube:hover{
+    color: red;
+}
+
+.About-School a{
+    display: block;
+    text-align: center;
+    /* width:200px; */
+    /* margin:auto; */
+    text-decoration: none;
+    color: black;
+    /* font-family: chalkduster; */
+    text-align:center;
+
+}
+.About-School a:hover{
+    color: #FF9900;
+    
+
+}
+.no-hover{
+    pointer-events: none;
+}
+.About-School i{
+    font-size: 20px;
+    margin: 20px;
+
+}
+.social-media-phones{
+    display: block;
+    width:200px;
+    max-width:100%;
+    margin:auto;
+}
+.social-media-phones a{
+    text-decoration: none;
+    color: black;
+    text-align:center;
+}
+.social-media-phones i{
+    font-size:40px;
+    padding:10px;
+    text-align:center;
+
+}
