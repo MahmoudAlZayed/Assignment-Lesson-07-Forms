@@ -87,3 +87,23 @@ html{
     color: black;
     background-color: #ddd;
 }
+.FrontEnd-Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.BackEnd-Image{
+    width: 808px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Paragraphs{
+    text-align: justify;
+    width: 808px;
+    max-width: 100%;
+    margin: auto;
+}
