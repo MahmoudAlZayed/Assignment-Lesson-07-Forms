@@ -7,8 +7,13 @@ body{
 html{
     font-family: "Poppins", sans-serif;
 }
+.logo{
+    color: #4e5155
+
+}
 .logo:hover{
     cursor:pointer;
+
 }
 .menu-logo:hover{
     cursor:pointer;
@@ -16,6 +21,9 @@ html{
 .header-menu{
     float: right;
     background-color: white;
+}
+.menu-logo {
+    float: right;
 }
 .header-menu-content{
     display: none;
@@ -58,7 +66,7 @@ html{
   }
 .header-image-container{
     background-color: rgb(217, 220, 221);
-
+   
 }
 .header-image{
     max-width: 100%;
@@ -86,6 +94,7 @@ html{
 .navbar a:hover{
     color: black;
     background-color: #ddd;
+    transition: all 0.5s linear; 
 }
 .FrontEnd-Image{
     display: block;
@@ -106,6 +115,8 @@ html{
     width: 808px;
     max-width: 100%;
     margin: auto;
+ 
+
 }
 .footer-second-row:after {
     content: "";
@@ -148,6 +159,18 @@ textarea{
     text-decoration: none;
     color: black;
     /* font-family: chalkduster; */
+
+}
+.bottom-menu-headers{
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animation {
+    0% {font-size: 16px;}
+    50% {font-size: 20px;}
+    100% {font-size: 16px;}
 
 }
 .fa-java:hover{

@@ -9,6 +9,10 @@ body{
 html{
     font-family: "Poppins", sans-serif;
 }
+.logo{
+    color: #4e5155
+
+}
 .logo:hover{
     cursor:pointer;
 }
@@ -18,6 +22,9 @@ html{
 .header-menu{
     float: right;
     background-color: white;
+}
+.menu-logo {
+    float: right;
 }
 .header-menu-content{
     display: none;
@@ -89,6 +96,8 @@ html{
 .navbar a:hover{
     color: black;
     background-color: #ddd;
+    background-color: #ddd;
+    transition: all 0.5s linear; 
 }
 .main-first-row{
     background-color: rgb(217, 220, 221);
@@ -103,6 +112,9 @@ label{
     margin:1 0px 0 10px 0;
     margin-top: 10px;
     
+}
+input:hover{
+    background-color: lightgray;
 }
 .name{
     /* text-align: center; */
@@ -127,6 +139,10 @@ label{
 textarea{
     max-width: 100%;
     
+
+}
+textarea:hover{
+    background-color: lightgray;
 
 }
 .checkbox{
@@ -176,6 +192,18 @@ textarea{
     text-decoration: none;
     color: black;
     /* font-family: chalkduster; */
+
+}
+.bottom-menu-headers{
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animation {
+    0% {font-size: 16px;}
+    50% {font-size: 20px;}
+    100% {font-size: 16px;}
 
 }
 .fa-java:hover{
